@@ -41,5 +41,34 @@ h2#universal {
     border-radius: 5px;
 }
 
+/* REGLA 8: Los elementos span tendrán font-weight 900, fondo negro y texto blanco */
+span {
+    font-weight: 900;
+    background-color: black;
+    color: white;
+}
 
+/* REGLA 9: Los <a> que sean hijos directos de <li> tendrán text-decoration none */
+li > a {
+    text-decoration: none;
+}
+
+/* REGLA 10: Los h3 tendrán color de fondo rgba(0, 139, 139, 0.529), padding y borde redondeado */
+h3 {
+    background-color: rgba(0, 139, 139, 0.529);
+    padding: 0.5px;
+    border-radius: 5px;
+}
+
+/* REGLA 11: Los div que sean DESCENDIENTES de #gallery tendrán width 100% */
+#gallery div {
+    width: 100%;
+}
+
+/* REGLA 12: Las imágenes tendrán width 100%, borde darkcyan y border-radius */
+img {
+    width: 100%;
+    border: solid darkcyan 1px;
+    border-radius: 5px;
+}
 
