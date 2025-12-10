@@ -28,4 +28,18 @@ h1 {
     border: solid darkcyan 1px;
     border-radius: 5px;
 }
+/* REGLA 6: El elemento con id universal tendrá color lightgoldenrodyellow */
+#universal {
+    color: lightgoldenrodyellow;
+}
+
+/* REGLA 7: h2.selector y h2#universal tendrán fondo darkcyan, padding y border-radius */
+h2.selector,
+h2#universal {
+    background-color: darkcyan;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+
 
